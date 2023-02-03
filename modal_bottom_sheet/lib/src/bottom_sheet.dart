@@ -12,14 +12,14 @@ import 'package:modal_bottom_sheet/src/utils/bottom_sheet_suspended_curve.dart';
 const Curve _decelerateEasing = Cubic(0.0, 0.0, 0.2, 1.0);
 
 const Duration _bottomSheetDuration = Duration(milliseconds: 400);
-const double _minFlingVelocity = 500.0;
+const double _minFlingVelocity = 50000.0;
 const double _closeProgressThreshold = 0.6;
 const double _willPopThreshold = 0.8;
 
 typedef WidgetWithChildBuilder = Widget Function(
     BuildContext context, Animation<double> animation, Widget child);
 
-/// A custom bottom sheet. test1
+/// A custom bottom sheet. test
 ///
 /// The [ModalBottomSheet] widget itself is rarely used directly. Instead, prefer to
 /// create a modal bottom sheet with [showMaterialModalBottomSheet].
